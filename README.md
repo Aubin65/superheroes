@@ -1,5 +1,5 @@
-# Project superheroes
+# Projet superheroes
 
-![Avengers](images/readme_image.png)
+![Avengers](images/avengers.png)
 
 Ce repo est utilisé pour 
