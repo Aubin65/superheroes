@@ -128,6 +128,6 @@ superset run
 Pour connecter Trino dans Superset, utiliser la chaîne suivante : 
 
 ```
-trino://username@localhost:8080/catalog_name
+trino://{username}@{localhost}:{port}/{catalog_name}
 ```
 
