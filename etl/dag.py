@@ -5,9 +5,9 @@ DAG de test
 # Import des librairies nécessaires
 from airflow.decorators import dag, task
 import pendulum
-import pymongo
-import pandas as pd
-import os
+import pymongo  # noqa
+import pandas as pd  # noqa
+import os  # noqa
 
 
 @dag(schedule="@once", start_date=pendulum.datetime(2021, 1, 1, tz="UTC"), catchup=False, tags=["superhesors_dag"])
