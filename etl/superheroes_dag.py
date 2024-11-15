@@ -73,8 +73,7 @@ def superheroes_etl():
         # --------------------------------------------------------------------------------------------- #
         # CHANGEMENT DES TYPES
 
-        df["aliases"].astype(object)
-        df[["height(cm)", "weight(kg)"]].astype(float)
+        df[["height(cm)", "weight(kg)"]] = df[["height(cm)", "weight(kg)"]].astype(float)
 
         return df
 
