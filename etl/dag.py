@@ -1,5 +1,5 @@
 """
-DAG de test 
+DAG de test
 """
 
 # Import des librairies nécessaires
