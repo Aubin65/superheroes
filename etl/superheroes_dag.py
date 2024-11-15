@@ -51,8 +51,8 @@ def superheroes_etl():
         df["unit_weight"] = df["weight"].map(lambda x: x.split("'")[-2].split(" ")[1])
 
         # Extraction des valeurs :
-        df["height(cm)"] = df["height"].map(lambda x: x.split("'")[-2].split(" ")[0])
-        df["weight(kg)"] = df["weight"].map(lambda x: x.split("'")[-2].split(" ")[0])
+        df["height(cm)"] = df["height"].map(lambda x: x.split("'")[-2].split(" ")[0]).replace(",", ".")
+        df["weight(kg)"] = df["weight"].map(lambda x: x.split("'")[-2].split(" ")[0]).replace(",", ".")
 
         # Suppression des valeurs incohérentes
         indexes_to_remove_height = df[~df["unit_height"].isin(["cm", "meters"])].index
