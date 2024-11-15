@@ -131,3 +131,17 @@ Pour connecter Trino dans Superset, utiliser la chaîne suivante :
 trino://{username}@{localhost}:{port}/{catalog_name}
 ```
 
+--- 
+
+*Apache Airflow :*
+
+```bash
+# Installation d'Airflow
+pip install apache-airflow
+
+# Attention a bien installer pyarrow pour que les données puissent être stockées en mémoire en différentes tâches
+pip install pyarrow
+
+# Lancer Airflow
+airflow standalone
+```
