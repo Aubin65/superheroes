@@ -148,4 +148,8 @@ airflow standalone
 
 --- 
 
-On peut voir un exemple de dashboard créé à partir de cet ETL et d'Apache Superset [ici]()
+On peut voir un exemple de dashboard créé à partir de cet ETL et d'Apache Superset [ici](https://github.com/Aubin65/superheroes/tree/main/dashboard_example)
+
+Le dashboard peut être exporté en tant qu'image comme ci-dessous : 
+
+![Example de dashboard](dashboard_example/etude-de-la-distribution-2024-11-18T15-15-01.790Z.jpg)
