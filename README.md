@@ -145,3 +145,7 @@ pip install pyarrow
 # Lancer Airflow
 airflow standalone
 ```
+
+--- 
+
+On peut voir un exemple de dashboard créé à partir de cet ETL et d'Apache Superset [ici]()
