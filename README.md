@@ -23,6 +23,15 @@ sudo mongod --dbpath /var/lib/mongodb --logpath /var/log/mongodb/mongod.log --fo
 mongosh
 ```
 
+Commandes utiles : 
+
+```javascript
+db.createCollection("nom_collection")
+db.nom_collection.drop()
+db.nom_collection.findOne()
+db.nom_collection.countDocuments()
+```
+
 ---
 
 *Trino :*
