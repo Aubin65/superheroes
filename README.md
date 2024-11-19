@@ -118,6 +118,12 @@ superset db upgrade
 export FLASK_APP=superset
 superset fab create-admin
 
+# Générer une clé SSL de 42 caractères
+openssl rand -base64 42
+
+# Ajouter la clé à la variable d'environnement SUPERSET_SECRET_KEY
+export SUPERSET_SECRET_KEY="{YOUR_KEY}"
+
 # Creation des roles par défaut
 superset init 
 
