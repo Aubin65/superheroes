@@ -102,8 +102,22 @@ def superheroes_etl():
     # Construire le chemin vers "raw_data/superheroes_data.csv"
     csv_file_path = os.path.join(project_root, "raw_data", "superheroes_data.csv")
 
+    @task()
+    def load_csv(transformed_df: pd.DataFrame, transformed_data_csv_path: str) -> None:
+
+        transformed_df.to_csv(transformed_data_csv_path)
+
+    # Construire le chemin vers le fichier destination pour la partie csv
+    transformed_data_csv_path = os.path.join(project_root, "transformed_data", "transformed_superheroes_data.csv")
+
+    # Partie Extract
     df = extract(csv_file_path)
+
+    # Partie Transform
     transformed_df = transform(df)
+
+    # Partie Load
+    load_csv(transformed_df, transformed_data_csv_path)
     load(transformed_df)
 
 
