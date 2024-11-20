@@ -171,10 +171,10 @@ Le dashboard peut être exporté en tant qu'image comme ci-dessous :
 
 ![Example de dashboard](dashboard_example/superset/superheroes_dashboard.jpg)
 
-Ces graphiques ont été construits depuis le menu "Charts" de l'interface de Superset. Une image de cette interface est présentée ci-dessous : 
+Ces graphiques (qui peuvent être téléchargés en tant qu'image depuis le menu du dashboards) ont été construits depuis le menu "Charts" de l'interface de Superset. Une image de cette interface est présentée ci-dessous : 
 
 ![Example de chart](images/charts_menu.png)
 
-Les données de ces graphiques sont quant à elles issues de la base de données MongoDB que nous avons initialement créée. Ensuite, il est possible d'effectuer des requêtes SQL depuis le "SQL lab" d'Apache Superset. Ce menu est de la forme suivante : 
+Les données de ces graphiques sont quant à elles issues de la base de données MongoDB que nous avons initialement créée à partir de l'[ETL](https://github.com/Aubin65/superheroes/blob/main/etl/superheroes_dag.py). Ensuite, il est possible d'effectuer des requêtes SQL depuis le "SQL lab" d'Apache Superset. Ce menu est de la forme suivante : 
 
 ![Example de SQL lab](images/sql_lab.png)
