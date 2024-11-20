@@ -169,7 +169,7 @@ On peut voir un exemple de dashboard créé à partir de cet ETL et d'Apache Sup
 
 Le dashboard peut être exporté en tant qu'image comme ci-dessous : 
 
-![Example de dashboard](dashboard_example/etude-de-la-distribution-2024-11-18T15-15-01.790Z.jpg)
+![Example de dashboard](dashboard_example/superheroes_dashboard.jpg)
 
 Ces graphiques ont été construits depuis le menu "Charts" de l'interface de Superset. Une image de cette interface est présentée ci-dessous : 
 
