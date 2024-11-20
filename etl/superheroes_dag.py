@@ -38,7 +38,6 @@ def superheroes_etl():
             Les transformations sont les suivantes :
                 * Extraction du poids à la bonne unité
                 * Extraction de la taille à la bonne unité
-                * Changement du type des alias de str vers list (peut être une liste vide)
                 * Suppression des lignes qui ne sont pas correctement définies
 
         """
